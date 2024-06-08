@@ -1,8 +1,4 @@
-img {
-  max-height: 300px;
-}
-
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -39,4 +35,84 @@ img {
   to {
     transform: rotate(360deg);
   }
+}
+
+.cursor {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #000000;
+  background-color: #3fbbcb;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 150ms ease;
+  transition-property: background-color, opacity, transform, mix-blend-mode;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+.cursor--hidden {
+  opacity: 0;
+}
+
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(1.25);
+  background-color: #3fbbcb;
+}
+
+.cursor--clicked {
+  transform: translate(-50%, -50%) scale(0.9);
+  background-color: #3fbbcb;
+}
+
+.me:hover {
+  display: relative;
+}
+
+.me:hover:after {
+  content: url('images/me_small.jpeg');
+  display: block;
+  position: absolute;
+  left: 20px; /* change this value to one that suits you */
+  top: 20px; /* change this value to one that suits you */
+  width: 3px;
+  height: 5px;
+}
+
+.text {
+  display:inline;
+  font-family: "Courier New"; 
+}
+
+.link {
+  cursor:pointer;
+  color:blue;
+  text-decoration:underline;
+}
+
+.container img{
+  display: inline-block;
+  position: absolute;
+  object-fit: cover;
+  left: 0px;
+  top: 0px;
+}
+
+body * {
+  cursor: none;
+}
+
+/* .cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fefefe;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 150ms ease;
+  transition-property: background-color, opacity, transform, mix-blend-mode;
+  z-index: 9999;
+  mix-blend-mode: difference;
 } */
