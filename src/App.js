@@ -6,14 +6,14 @@ import sutro from "./images/Sutro.png";
 import {Cursor} from './Cursor.js';
 
 function App() {
-  const [hover, setHover] = React.useState(false);
-  const onHover = () => {
-    setHover(true);
-  };
+  // const [hover, setHover] = React.useState(false);
+  // const onHover = () => {
+  //   setHover(true);
+  // };
 
-  const onLeave = () => {
-    setHover(false);
-  };
+  // const onLeave = () => {
+  //   setHover(false);
+  // };
   return (
     <BrowserRouter>
       <Cursor />
