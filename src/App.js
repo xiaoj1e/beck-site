@@ -19,8 +19,8 @@ function App() {
       <Cursor />
       <div
         className="me container text link"
-        onMouseEnter={onHover}
-        onMouseLeave={onLeave}
+        // onMouseEnter={onHover}
+        // onMouseLeave={onLeave}
         role="button"
         tabIndex="-3"
       > {"beck liao"}
