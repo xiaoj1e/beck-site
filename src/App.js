@@ -1,12 +1,7 @@
 // import cat from './applecat.jpeg'
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-import photo from "./images/me.jpeg";
-import office from "./images/digsafOH.png";
-import tj from "./images/tj.png";
-import gaypec from "./images/gaypec.png";
+import { BrowserRouter } from 'react-router-dom';
 import sutro from "./images/Sutro.png";
 import {Cursor} from './Cursor.js';
 
