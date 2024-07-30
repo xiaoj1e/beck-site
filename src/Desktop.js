@@ -9,7 +9,7 @@ import dandelion from './svg/dandelion.svg';
 import flower from './svg/flower.svg'
 import purpleFlower from './svg/purple_flower.svg';
 import ginkgo from './svg/ginkgo.svg'
-import curve from './svg/curve.svg'
+// import curve from './svg/curve.svg'
 
 export const Desktop = () => {
     //const myText = new SplitType('#my-text')
