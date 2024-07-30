@@ -1,0 +1,215 @@
+.desktop {
+    background-color: #f3f0ef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+
+  .svg {
+    background-color: transparent;
+  }
+  
+  .desktop .right {
+    height: 891px;
+    left: 847px;
+    position: absolute;
+    top: 50px;
+    width: 593px;
+  }
+  
+  .desktop .pic {
+    height: 621px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 114px;
+    width: 432px;
+  }
+  
+  .desktop .bittermelon {
+    height: 237px;
+    left: 364px;
+    position: absolute;
+    top: 654px;
+    width: 229px;
+  }
+  
+  .desktop .dandelion {
+    height: 193px;
+    left: 348px;
+    position: absolute;
+    top: 0;
+    width: 196px;
+  }
+
+  .desktop .img {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 30px;
+    width: 60px;
+  }
+  
+  .desktop .left {
+    height: 815px;
+    position: absolute;
+    width: 806px;
+  }
+  
+  .desktop .bio {
+    background-size: 200% .08em;
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 110px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 114px;
+    width: 644px;
+    height: 480px;
+  }
+  
+  .desktop .ginkgo {
+    height: 140px;
+    left: 40px;
+    position: absolute;
+    top: 30px;
+    width: 100px;
+  }
+  
+  .desktop .flower {
+    height: 135px;
+    left: 696px;
+    position: absolute;
+    top: 680px;
+    width: 110px;
+  }
+  
+  .desktop .dandelion-2 {
+    height: 129px;
+    left: 680px;
+    position: absolute;
+    top: 16px;
+    width: 111px;
+  }
+  
+  .desktop .curve {
+    height: 48px;
+    left: 99px;
+    position: absolute;
+    top: 660px;
+    width: 565px;
+  }
+
+  .bio {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .char {
+    transform: translateY(115px);
+    transition: transform .5s;
+}
+    /* .bio {
+        display: block;
+        animation: reveal .5s cubic-bezier(0.77, .8, 0.175, .8) .75s;
+    }
+  @keyframes reveal {
+    0% {
+      transform: translate(0,100%);
+    }
+    100% {
+      transform: translate(0,0);
+    }
+  } */
+
+.gear {
+    transform-origin: 50% 50%;
+    animation: ckw 12s infinite linear;
+    /* <--- */
+}
+@keyframes ckw {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.slow-gear {
+  transform-origin: 50% 50%;
+  animation: ckw 20s infinite linear;
+  /* <--- */
+}
+
+a {
+  text-decoration: none;
+  color: #3d00c2;
+  border-bottom-color: #3d00c2;
+  /* border-bottom-width: 1px;
+  border-bottom-style: solid */
+}
+
+/* .squiggle {
+  border-bottom: none;
+  background-position: 0 calc(100% - 1.5px);
+  background-size: auto 3px;
+  background-repeat: repeat-x;
+  padding-bottom: 3px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23000' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFE7D1' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FAFFF6' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFD8D1' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFB3' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23A3E9DE' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFB59B' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%233D00C2' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23005746' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23661F4F' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23881910' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E")
+} */
+
+.svg-sine-wave {
+  padding-bottom: 0.2ex;
+
+  &:hover {
+    background-image: url("data:image/svg+xml,%3Csvg width='25' height='5' viewBox='0 0 20 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift 0.6s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3' stroke-width='2.5' stroke='black'/%3E%3C/svg%3E%0A");
+    background-position: 0 100%;
+    background-size: 2.3ex 1ex;
+    text-decoration: none;
+    background-repeat: repeat-x;
+  }
+}
+
+* {
+  background-color: #f3f0ef;
+}
+
+.link {
+  cursor:pointer;
+  color:blue;
+  font-style: italic;
+
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  80% { transform: rotate(0deg); }
+  85% { transform: rotate(20deg); }
+  95% { transform: rotate(-20deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wiggle {
+  display: inline-block;
+  animation: wiggle 2.5s infinite;
+}
