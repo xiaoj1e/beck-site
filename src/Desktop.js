@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import me from "./images/IMG_0611.jpg";
 // import SplitType from 'split-type';
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
 import bittermelon from './svg/bittermelon.svg';
 import dandelion from './svg/dandelion.svg';
@@ -14,12 +14,12 @@ import curve from './svg/curve.svg'
 export const Desktop = () => {
     //const myText = new SplitType('#my-text')
 
-    gsap.to('.char', {
-        y: 0,
-        stagger: 0.05,
-        delay: 0.2,
-        duration: .1
-    })
+    // gsap.to('.char', {
+    //     y: 0,
+    //     stagger: 0.05,
+    //     delay: 0.2,
+    //     duration: .1
+    // })
     return (
     <div className="desktop">
         <div className="div">
