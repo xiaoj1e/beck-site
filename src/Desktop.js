@@ -41,7 +41,7 @@ export const Desktop = () => {
                     <img className="dandelion-2 gear svg" alt="Dandelion" src={dandelion} />
                     <div>
                         <span role="img" aria-label="memo">📝</span><a className="link" href = "mailto: beckmliao@gmail.com">Email</a> <br/>
-                        <span role="img" aria-label="earth">🌍</span><a className="text link" href="https://drive.google.com/file/d/1n7J5-poXSb94pKMn_o-UdBg5EWvF5let/view?usp=sharing">Resume</a>
+                        <span role="img" aria-label="earth">🌍</span><a className="text link" href="https://drive.google.com/file/d/1jM_Zpfrq33s2Fl-a-O0IZ8ryoyQMubca/view?usp=sharing">Resume</a>
                     </div>
             </div>
         </div>
